@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="5"
+        android:orientation="horizontal"
+        android:id="@+id/Left_Buttons"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/L_1"
+            android:id="@+id/L_1"
+            android:clickable="false" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/L_2"
+            android:id="@+id/L_2" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/L_3"
+            android:id="@+id/L_3" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/L_4"
+            android:id="@+id/L_4" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/L_5"
+            android:id="@+id/L_5" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/L_6"
+            android:id="@+id/L_6" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/L_7"
+            android:id="@+id/L_7" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/L_8"
+            android:id="@+id/L_8" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/L_9"
+            android:id="@+id/L_9" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/L_10"
+            android:id="@+id/L_10" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="5"
+        android:orientation="horizontal"
+        android:id="@+id/Right_Buttons"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:columnOrderPreserved="false"
+        android:rowOrderPreserved="false"
+        android:useDefaultMargins="false"
+        android:clickable="false"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:longClickable="false">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/R_5"
+            android:id="@+id/R_5" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/R_4"
+            android:id="@+id/R_4" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/R_3"
+            android:id="@+id/R_3" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/R_2"
+            android:id="@+id/R_2" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/R_1"
+            android:id="@+id/R_1" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/R_10"
+            android:id="@+id/R_10" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/R_9"
+            android:id="@+id/R_9" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/R_8"
+            android:id="@+id/R_8" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/R_7"
+            android:id="@+id/R_7" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/R_6"
+            android:id="@+id/R_6" />
+
+    </GridLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Left_Control"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:id="@+id/L_Joy"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/stick_bg"
+            android:layout_gravity="center">
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/L_Slide"
+            android:layout_width="20dp"
+            android:layout_height="160dp"
+            android:background="@drawable/slide"
+            android:layout_gravity="center">
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Right_Control"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+
+        <RelativeLayout
+            android:id="@+id/R_Slide"
+            android:layout_width="20dp"
+            android:layout_height="160dp"
+            android:background="@drawable/slide"
+            android:layout_gravity="center" />
+
+        <RelativeLayout
+            android:id="@+id/R_Joy"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/stick_bg"
+            android:layout_gravity="center">
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_enable"
+        android:textOff="Enable Robot"
+        android:textOn="Disable Robot"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/elapsed"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_mode"
+        android:textOn="Autonomous"
+        android:layout_above="@+id/btn_enable"
+        android:layout_centerHorizontal="true"
+        android:checked="false"
+        android:textOff="Teleoperated" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/btn_mode"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ip_robot"
+            android:text="@string/default_ip"
+            android:singleLine="true"
+            android:inputType="textUri" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/btn_setip" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:id="@+id/status"
+        android:layout_below="@+id/elapsed"
+        android:layout_toLeftOf="@+id/Right_Buttons"
+        android:layout_alignLeft="@+id/btn_mode"
+        android:layout_alignStart="@+id/btn_mode"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/Right_Control" />
+
+    <ImageButton
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/settings"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:src="@android:drawable/ic_menu_preferences" />
+
+</RelativeLayout>

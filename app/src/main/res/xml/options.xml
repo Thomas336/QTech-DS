@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Network">
+        <EditTextPreference
+            android:key="robot_addr"
+            android:title="Robot Address"
+            android:summary="The IP Address of the robot"
+            android:dialogTitle="Address" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Mapping">
+        <PreferenceScreen
+            android:title="USB ports">
+            <ListPreference
+                android:title="Left Joystick Port"
+                android:summary="What USB port will the left joystick emulate"
+                android:key="usb_left"
+                android:defaultValue="0"
+                android:entries="@array/usbs"
+                android:entryValues="@array/usb_values" />
+            <ListPreference
+                android:title="Right Joystick Port"
+                android:summary="What USB port will the right joystick emulate"
+                android:key="usb_left"
+                android:defaultValue="1"
+                android:entries="@array/usbs"
+                android:entryValues="@array/usb_values" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="Axes">
+            <ListPreference
+                android:title="Left X"
+                android:summary="What USB port will the left joystick emulate"
+                android:key="usb_left"
+                android:defaultValue="0"
+                android:entries="@array/axes"
+                android:entryValues="@array/axis_values" />
+            <ListPreference
+                android:title="Left Y"
+                android:summary="What USB port will the right joystick emulate"
+                android:key="usb_left"
+                android:defaultValue="1"
+                android:entries="@array/axes"
+                android:entryValues="@array/axis_values" />
+            <ListPreference
+                android:title="Right X"
+                android:summary="What USB port will the right joystick emulate"
+                android:key="usb_left"
+                android:defaultValue="2"
+                android:entries="@array/axes"
+                android:entryValues="@array/axis_values" />
+            <ListPreference
+                android:title="Right Y"
+                android:summary="What USB port will the right joystick emulate"
+                android:key="usb_left"
+                android:defaultValue="3"
+                android:entries="@array/axes"
+                android:entryValues="@array/axis_values" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

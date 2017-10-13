@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="usb_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="usbs">
+        <item>USB 1</item>
+        <item>USB 2</item>
+        <item>USB 3</item>
+        <item>USB 4</item>
+    </string-array>
+    <string-array name="axis_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="axes">
+        <item>X</item>
+        <item>Y</item>
+        <item>Twist</item>
+        <item>Throtle</item>
+    </string-array>
+</resources>

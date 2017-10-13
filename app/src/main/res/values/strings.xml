@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">QTech FRC Driver Station</string>
+    <string name="action_settings">Settings</string>
+    <string name="R_5">5</string>
+    <string name="R_4">4</string>
+    <string name="R_3">3</string>
+    <string name="R_2">2</string>
+    <string name="R_1">1</string>
+    <string name="R_10">10</string>
+    <string name="R_9">9</string>
+    <string name="R_8">8</string>
+    <string name="R_7">7</string>
+    <string name="R_6">6</string>
+    <string name="L_1">1</string>
+    <string name="L_2">2</string>
+    <string name="L_3">3</string>
+    <string name="L_4">4</string>
+    <string name="L_5">5</string>
+    <string name="L_6">6</string>
+    <string name="L_7">7</string>
+    <string name="L_8">8</string>
+    <string name="L_9">9</string>
+    <string name="L_10">10</string>
+    <string name="default_ip">10.15.92.17</string>
+</resources>
